@@ -1,3 +1,6 @@
+### Try to fit brms model
+# Instructions to install brms package
+# https://learnb4ss.github.io/learnB4SS/articles/install-brms.html#linux-1
 library(brms)
 
 fit1 <- brm(count ~ zAge + zBase * Trt + (1|patient),
